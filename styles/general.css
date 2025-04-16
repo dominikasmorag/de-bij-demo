@@ -5,9 +5,8 @@ body {
     background-color: white;
 }
 
-
 .background-break {
-    background-image: url("images/towfiqu-barbhuiya-ho-p7qLBewk-unsplash.jpg");
+    background-image: url("../images/towfiqu-barbhuiya-ho-p7qLBewk-unsplash.jpg");
     min-height: 50vh;
     background-position: center;
     background-attachment: fixed;
@@ -20,11 +19,6 @@ body {
 h2 {
     font-size: 1.6rem;
 }
-
-/* p {
-    margin-top: 0;
-} */
-
 
 a {
     text-decoration: none;

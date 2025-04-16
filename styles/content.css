@@ -1,0 +1,178 @@
+.content-background, .content-background-2 {
+    margin-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.1rem;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0,0,0, 0.5);
+}
+
+.content-background {
+    background-color: rgb(227, 249, 255);
+}
+
+.content-background-2 {
+    background-color: #3acb3f34;
+}
+
+.content {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;  
+    padding: 1rem;
+}
+
+.content-wrapper-text
+ {
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+} 
+
+.content-wrapper {
+    padding-top: 1rem;
+}
+.service {
+    padding: 1rem 2rem;
+    background-color: #c1d6f1;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: transform .2s, box-shadow .3s;
+}
+
+.service:hover {
+    box-shadow: 1px 2px 3px rgb(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+.services-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 0;
+    flex-shrink: 0;
+    gap: 20px;
+}
+
+.list-element  {
+    
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    /* padding: 1rem; */
+}
+
+.location-icon {
+    max-width: 250px;
+    margin: auto;
+    padding: 0;
+}
+
+.pricing-icon {
+    max-width: 250px;
+    margin: auto;
+    padding: 0;
+}
+
+.list-icon {
+    max-width: 140px;
+    margin: auto;
+    padding: 0;
+    margin-top: -60px;
+}
+
+.icon-holder {
+    display: flex;
+    flex: 1;
+}
+
+.grid-box-location {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    
+}
+
+.grid-box-pricing {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+}
+
+#nav-to-contact:hover { 
+    cursor: pointer;
+    color: grey;
+}
+
+.reg-item {
+    margin-left: 2rem;
+    text-indent: -1.2rem;
+    padding-left: 1.2rem;
+  }
+
+  .reg-list {
+    padding-left: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    list-style-position: outside;
+  }
+  
+  .reg-list li {
+    margin-bottom: 0.4rem;
+    line-height: 1.8rem;
+    font-size: 1.05rem;
+  }
+
+@media (max-width: 768px) {
+    .content-background, .content-background-2 {
+        min-width: 6%;
+        max-width: 85vw;
+        /* border: 1px solid black; */
+        padding: 0.01rem;
+        margin-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .content {
+        padding: 3rem;
+    }
+    .grid-box-location, .grid-box-pricing {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .location-icon, .pricing-icon, .list-icon {
+        width: 30%;
+    }
+
+    .icon-holder {
+        grid-row-start: 1;
+    }
+    
+    .services-list {
+        gap: 10px;
+    }
+
+    .service {
+        padding: 1rem 2rem;
+    }
+
+}

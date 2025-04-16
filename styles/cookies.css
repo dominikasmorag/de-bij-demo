@@ -1,0 +1,37 @@
+.cookies-consent-container {
+    z-index: 9;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    bottom: 0;
+    background-color: rgba(211, 211, 211, 0.9);
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+    position: fixed;
+    font-size: 0.7rem;
+    border-radius: 6px;
+}
+
+.accept-cookies {
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    align-items: start;
+    border: none;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.255);
+}
+
+.accept-cookies:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .cookies-consent-container {
+        left: 0;
+        right: 0;
+    }
+}

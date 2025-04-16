@@ -1,0 +1,90 @@
+footer {
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+    margin-top: 5rem;
+    min-height: 200px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 90%;
+    margin: auto;
+}
+
+.footer-grid > div {
+    padding: 1rem;
+    margin-top: 0;
+}
+
+.footer-contact-link {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+
+.footer-contact-link:visited {
+    color: black;
+}
+
+.footer-header {
+    margin-bottom: 0.5rem;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-list > li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-list > a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer-contact-link:hover {
+    color: white;
+}
+
+.footer-facebook-icon {
+    width: 50px;
+}
+
+.copyright {
+    max-width: 100%;
+    display: grid;
+    margin: auto;
+    background-color: rgb(200, 200, 200);
+    border-top: 1px dotted black;
+    text-align: center;
+}
+
+.copyright > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+#quick-links > a {
+    margin-top: 2rem;
+}
+
+#quick-links > li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}

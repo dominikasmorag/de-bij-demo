@@ -1,0 +1,31 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Noto Sans';
+    background-color: white;
+}
+
+.background-break {
+    background-image: url("/images/towfiqu-barbhuiya-ho-p7qLBewk-unsplash.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 1px 2px 10px rgba(0,0,0, 0.5);
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+/* p {
+    margin-top: 0;
+} */
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

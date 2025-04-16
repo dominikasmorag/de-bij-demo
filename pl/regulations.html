@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<head>
+    <title> De Bij - Schoonmakdebrijf </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../styles/nav.css">
+<link rel="stylesheet" href="../styles/general.css">
+<link rel="stylesheet" href="../styles/content.css">
+<link rel="stylesheet" href="../styles/hero.css">
+<link rel="stylesheet" href="../styles/gallery.css">
+<link rel="stylesheet" href="../styles/footer.css">
+<link rel="stylesheet" href="../styles/cookies.css">
+<script src="..//scripts/cookies.js"></script>
+
+</head>
+<body>
+<div class="cookies-consent-container">
+    <div class="cookies-text">
+        <h4>Używamy plików cookies</h4>
+Ta strona korzysta z plików cookies w celu prawidłowego działania oraz ulepszania jej funkcjonalności. Korzystając ze strony, wyrażasz zgodę na ich użycie.
+    </div>
+    <button class="accept-cookies" onclick="hideNotification()">Rozumiem</button>
+</div>
+<div id="container">
+    <div class="top-bar">
+        <div class="top-bar-holder">
+    <div class="nav-box">
+        <ul class="nav-options">
+            <a href="../index.html#home"><li id="home-link">Strona główna</li></a>
+            <a href="../index.html#offer"><li id="offer-link">Oferta</li></a>
+            <a href="../index.html#location"><li id="location-link">Lokalizacja</li></a>
+            <a href="../index.html#pricing"><li id="pricing-link">Cennik</li></a>
+            <a href="../index.html#gallery"><li id="gallery-link">Galeria</li></a>
+            <a href="../index.html#contact"><li id="contact-link">Kontakt</li></a>
+            <a href="regulations.html"><li id="regulations-link">Regulamin</li></a>
+        </ul>
+        <div class="language-and-menu">
+        <div class="language-bar">
+            <p class="selected-language">PL </p>
+            <img class="country-icon" src="../images/pl.svg">
+            <img class="down-arrow-icon" onclick="selectLanguage()" src="../images/icons/down-arrow-5-svgrepo-com.svg">
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()"><img src="../images/icons/hamburger-icon.svg" class="hamburger-icon"></div>
+    </div>
+    </div>
+</div>
+</div>
+
+
+<div class="content-background">
+    <div class="grid-box-regulations">
+      <div class="content-wrapper">
+        <h2 class="content-wrapper-text">Regulamin</h2>
+  
+        <h3>1. Informacje ogólne</h3>
+        <p class="reg-item">1.1. Niniejszy regulamin określa zasady współpracy z jednoosobową firmą sprzątającą działającą na terenie Holandii.</p>
+        <p class="reg-item">1.2. Skorzystanie z usług firmy jest równoznaczne z akceptacją niniejszego regulaminu.</p>
+  
+        <h3>2. Rezygnacja z usług</h3>
+        <p class="reg-item">2.1. Klient nie ma prawa do jednostronnej rezygnacji z usług z dnia na dzień.</p>
+        <p class="reg-item">2.2. Rezygnacja ze współpracy możliwa jest wyłącznie w formie pisemnej (e-mail). Wiadomości telefoniczne, SMS-y czy wiadomości w aplikacjach typu WhatsApp nie są uznawane za skuteczne wypowiedzenie umowy.</p>
+        <p class="reg-item">2.3. Okres wypowiedzenia wynosi 3 miesiące i liczony jest od dnia otrzymania wiadomości e-mail z rezygnacją.</p>
+        <p class="reg-item">2.4. Klienci korzystający z usług cyklicznie (stała współpraca) zobowiązują się do minimum rocznego okresu współpracy. Rezygnacja przed upływem 12 miesięcy nie jest możliwa bez uprzednich uzgodnień i może skutkować naliczeniem opłaty umownej.</p>
+  
+        <h3>3. Płatności</h3>
+        <p class="reg-item">3.1. Wysokość wynagrodzenia oraz termin płatności określane są indywidualnie i zawarte w umowie lub na wystawionej fakturze.</p>
+        <p class="reg-item">3.2. Płatność musi zostać dokonana w terminie wskazanym na fakturze.</p>
+        <p class="reg-item">3.3. W przypadku opóźnień w płatności firma zastrzega sobie prawo do naliczania ustawowych odsetek oraz dodatkowych kosztów windykacyjnych.</p>
+  
+        <h3>4. Środki czystości i dodatkowe opłaty</h3>
+        <p class="reg-item">4.1. Klient ma możliwość udostępnienia własnych środków czystości i akcesoriów (np. szmatek, mopów, ścierek).</p>
+        <p class="reg-item">4.2. W przypadku, gdy do wykonania usługi wykorzystane zostaną materiały Klienta, które po sprzątaniu wymagają prania, a pranie to wykonywane jest przez firmę sprzątającą, do faktury doliczana jest dodatkowa opłata równa jednej godzinie roboczej.</p>
+        <p class="reg-item">4.3. Jeżeli w trakcie pracy firma uzna, że dane zabrudzenie nie może zostać skutecznie usunięte żadnym dostępnym środkiem bez ryzyka uszkodzenia powierzchni, rezygnuje z jego czyszczenia ze względu na potencjalne konsekwencje. Klient nie ma prawa rościć sobie pretensji w takim przypadku.</p>
+  
+        <h3>5. Odpowiedzialność</h3>
+        <p class="reg-item">5.1. Firma wykonuje swoje usługi z należytą starannością, jednak nie ponosi odpowiedzialności za szkody powstałe wskutek użycia środków czystości dostarczonych przez Klienta.</p>
+        <p class="reg-item">5.2. Firma zastrzega sobie prawo do odmowy wykonania usługi w przypadku, gdy środki lub warunki pracy zagrażają bezpieczeństwu lub mogą skutkować uszkodzeniem mienia.</p>
+  
+        <h3>6. Zmiany w harmonogramie</h3>
+        <p class="reg-item">6.1. Klient zobowiązany jest do poinformowania o zmianie terminu lub godziny usługi minimum 48 godzin przed zaplanowanym terminem.</p>
+        <p class="reg-item">6.2. W przypadku zmiany zgłoszonej zbyt późno lub nieobecności Klienta w umówionym czasie, usługa uznana zostaje za wykonaną i faktura jest wystawiana w pełnej wysokości.</p>
+  
+        <h3>7. Obecność zwierząt domowych</h3>
+        <p class="reg-item">7.1. Klient jest zobowiązany poinformować o obecności zwierząt w miejscu wykonywania usługi.</p>
+        <p class="reg-item">7.2. Zwierzęta powinny być zabezpieczone na czas sprzątania, jeśli mogą utrudniać pracę lub stanowić zagrożenie.</p>
+        <p class="reg-item">7.3. W przypadku obecności zwierząt domowych firma zastrzega sobie prawo do naliczenia dodatkowej opłaty, jeśli ich obecność skutkuje zwiększonym nakładem pracy (np. sierść, zabrudzenia, zapachy, ślady łap, kuwety, klatki, odchody itp.). Wysokość dopłaty ustalana jest indywidualnie.</p>
+  
+        <h3>8. Dostęp do nieruchomości</h3>
+        <p class="reg-item">8.1. Klient jest zobowiązany zapewnić dostęp do nieruchomości w umówionym terminie.</p>
+        <p class="reg-item">8.2. W przypadku braku możliwości wejścia do lokalu (np. brak kluczy, brak odpowiedzi na dzwonek itp.), usługa zostaje uznana za zrealizowaną, a faktura wystawiona w pełnej wysokości.</p>
+  
+        <h3>9. Przerwy świąteczne i urlopowe</h3>
+        <p class="reg-item">9.1. Firma zastrzega sobie prawo do przerwy urlopowej, o której Klienci będą informowani z wyprzedzeniem (minimum 14 dni).</p>
+        <p class="reg-item">9.2. W tym czasie nie będą naliczane opłaty za niewykonane usługi.</p>
+        <p class="reg-item">9.3. Klient nie ma prawa do rozwiązania umowy z powodu przerwy urlopowej, jeśli ta mieści się w rozsądnych granicach (np. 2–4 tygodnie w roku).</p>
+  
+        <h3>10. Poufność i ochrona danych</h3>
+        <p class="reg-item">10.1. Wszystkie informacje dotyczące Klienta oraz dane osobowe są przetwarzane wyłącznie na potrzeby realizacji usługi i zgodnie z obowiązującym prawem (np. RODO).</p>
+        <p class="reg-item">10.2. Firma zobowiązuje się do zachowania poufności w zakresie wszelkich informacji uzyskanych w czasie realizacji usług.</p>
+  
+        <h3>11. Usługi dodatkowo płatne</h3>
+        <p class="reg-item">11.1. Podstawowa stawka obejmuje standardowe usługi sprzątające (np. odkurzanie, mycie podłóg, przecieranie kurzy, łazienka, kuchnia – według ustaleń).</p>
+        <p class="reg-item">11.2. Usługi niestandardowe, które wymagają dodatkowego nakładu pracy, czasu lub specjalistycznych środków, są płatne dodatkowo. Należą do nich m.in.:</p>
+        <ul class="reg-list">
+          <li>mycie okien (wewnętrzne/zewnętrzne),</li>
+          <li>mycie piekarnika,</li>
+          <li>czyszczenie lodówki,</li>
+          <li>czyszczenie po remoncie,</li>
+          <li>sprzątanie piwnic/strychów/garaży,</li>
+          <li>usuwanie pleśni, grzybów lub uporczywych zabrudzeń,</li>
+          <li>pranie i składanie ubrań,</li>
+          <li>prasowanie,</li>
+          <li>pranie dywanów i tapicerki (jeśli świadczone),</li>
+          <li>sprzątanie mieszkań po najemcach lub przeprowadzkach.</li>
+        </ul>
+        <p class="reg-item">11.3. Wysokość opłaty za usługi dodatkowe jest ustalana indywidualnie z klientem przed rozpoczęciem pracy.</p>
+        <p class="reg-item">11.4. Brak zgody klienta na dopłatę za daną usługę skutkuje wykonaniem wyłącznie podstawowego zakresu sprzątania.</p>
+      </div>
+    </div>
+  </div>
+
+<footer>
+    <div class="footer-grid">
+        <div>
+            <h4 class="footer-header">Informacje kontaktowe</h4>
+            <ul class="footer-list">
+            <li><a class="footer-contact-link" href="tel:+31620122310" target="_blank">+31620122310</a></li>
+            <li><a class="footer-contact-link" href="mailto:majka.dubiel@gmail.com" target="_blank">majka.dubiel@gmail.com</a></li>
+            <li><a class="footer-contact-link" href="https://wa.me/+31620122310" target="_blank">Whatsapp</a></li>
+            <li><a class="footer-contact-link" href="https://www.facebook.com/profile.php?id=61568734544831" target="_blank">Facebook</a></li>
+            </ul>
+            <h4 class="footer-header">Godziny kontaktu</h4>
+                <p>Poniedziałek - Piątek: <br> 8:00 - 18:00</p>
+                <p>Sobota <br> 8:00 - 18:00</p>
+        </div>
+        <div>
+            <h4 class="footer-header">Szybkie linki</h4>
+            <ul class="footer-list" id="quick-links">
+                <li id="home-footer-link"><a href="/index.html#home">Strona główna &rarr;</a></li>
+                <li id="offer-footer-link"><a href="/index.html#offer">Oferta &rarr;</a></li>
+                <li id="location-footer-link"><a href="/index.html#location">Lokalizacja &rarr;</a></li>
+                <li id="pricing-footer-link"><a href="/index.html#pricing">Cennik &rarr;</a></li>
+                <li id="gallery-footer-link"><a href="/index.html#gallery">Galeria &rarr;</a></li>
+                <li id="contact-footer-link"><a href="/index.html#contact">Kontakt &rarr;</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="footer-header">Informacje prawne i social media</h4>
+            <p>Ta strona wykorzystuje cookies w celu zapewnienia prawidłowego działania usług. Używamy tylko cookies niezbędnych do działania serwisu.</p>
+            <a href="https://www.facebook.com/profile.php?id=61568734544831" target="_blank"><img class="footer-facebook-icon" src="/images/icons/facebook-color-svgrepo-com.svg"></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&#169; 2025 De Bij. Wszelkie prawa zastrzeżone | Designed and created by <a href="dominikasmorag.github.io">Dominika Smorąg</a></p>
+    </div>
+</footer>
+
+<div class="language-overlay">
+    <div class="language-modal">
+            <a href="../nl/index.html" title="język niderlandzki"><img src="../images/nl.svg"></a>
+            <a href="../pl/index.html" title="język polski"><img src="../images/pl.svg"></a>
+    </div>
+</div>
+
+<script src="../scripts/smooth-scroll.js"></script>
+<script src="../scripts/toggle-menu.js"></script>
+<script src="../scripts/language.js"></script>
+
+</body>
+</html>

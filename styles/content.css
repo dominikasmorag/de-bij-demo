@@ -31,6 +31,8 @@
     color: rgb(0, 0, 0);
 } 
 
+
+
 .content-wrapper {
     padding-top: 1rem;
 }
@@ -74,9 +76,7 @@
 
 p {
     font-size: 1.1rem;
-    font-weight: lighter;
     line-height: 2rem;
-    /* padding: 1rem; */
 }
 
 .location-icon {

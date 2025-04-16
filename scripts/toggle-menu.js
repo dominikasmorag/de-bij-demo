@@ -1,7 +1,9 @@
+let menuItems = navOptions.querySelectorAll("li");
+
 function toggleMenu() {
     let navOptions = document.querySelector(".nav-options");
 
-    let menuItems = navOptions.querySelectorAll("li");
+
 
     if (navOptions.style.display === "grid") {
         navOptions.style.display = "none";  
@@ -42,6 +44,9 @@ window.addEventListener("resize", () => {
         navOptions.style.width = "auto";
         navOptions.style.boxShadow = "none"; 
         navOptions.style.right = "auto"; 
+        menuItems.forEach(item => {
+            item.style.borderBottom = "none";
+        });
     } else {
         navOptions.style.display = "none";  
     }

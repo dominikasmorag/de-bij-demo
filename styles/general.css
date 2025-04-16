@@ -24,3 +24,8 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+body > p {
+    font-weight: bold;
+}
+

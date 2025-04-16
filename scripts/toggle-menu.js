@@ -1,4 +1,3 @@
-let menuItems = navOptions.querySelectorAll("li");
 
 function toggleMenu() {
     let navOptions = document.querySelector(".nav-options");
@@ -19,18 +18,6 @@ function toggleMenu() {
         navOptions.style.zIndex = "1000"; 
         
     }
-
-    menuItems.forEach(item => {
-        item.style.borderBottom = "1px dashed black";
-    });
-
-    if(window.width < 1260) {
-    menuItems.forEach(item => {
-        item.addEventListener("click", () => {
-            navOptions.style.display = "none";
-        });
-    });
-}
 }
 
 window.addEventListener("resize", () => {

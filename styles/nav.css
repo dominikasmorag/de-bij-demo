@@ -5,7 +5,7 @@
             margin: auto;
             align-items: center;
             position: fixed;
-            background-color: white;
+            background-color: rgb(240, 240, 240);
             padding: 10px;
             box-shadow: 1px 2px 3px rgba(0,0,0, 0.5);
             top: 0;
@@ -28,6 +28,8 @@
 
         .nav-options li {
             background-color: #F0F0F0;
+            /* border: 2px solid white; */
+            border-radius: 18px;
             display: inline-block;
             font-size: 0.9rem;
             padding: 10px 13px;
@@ -35,6 +37,7 @@
             text-align: center;
             transition: background-color 0.2s;
         }
+        
 
         .nav-options li:hover {
             background-color: #49ac3e;
@@ -182,6 +185,10 @@
                 display: none;
             }
 
+            .nav-options li {
+            border-radius: 0;
+            }
+
             .nav-box {
                 position: fixed;
                 width: 100%;
@@ -193,6 +200,15 @@
 
             .selected-language {
                 padding-right: 0.3rem;
+            }
+
+            .language-modal {
+                display: flex;
+                flex-direction: column;
+                padding: 5rem;
+                margin: auto;
+                background-color: rgba(0, 0, 0, 0.8);
+                border-radius: 10px;
             }
      
         }

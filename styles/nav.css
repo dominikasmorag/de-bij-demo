@@ -37,7 +37,7 @@
             text-align: center;
             transition: background-color 0.2s;
         }
-        
+
 
         .nav-options li:hover {
             background-color: #49ac3e;
@@ -150,8 +150,6 @@
         }
 
         #regulations-link a {
-            width: 100%;
-            height: 100%;
             color: inherit;
             padding: 1rem;
         }

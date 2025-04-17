@@ -11,11 +11,14 @@
 }
 
 .content-background {
-    background-color: rgb(227, 249, 255);
+    /* background-color: rgb(227, 249, 255); */
+    /* background-color: rgb(197, 245, 253) */
+    background-color: rgba(197, 245, 253, 0.77)
 }
 
 .content-background-2 {
-    background-color: #3acb3f34;
+    /* background-color: #3acb3f34; */
+    background-color: #c8f4af;
 }
 
 .content {
@@ -39,8 +42,9 @@
 }
 .service {
     padding: 1rem 2rem;
-    background-color: #c1d6f1;
-    border-radius: 10px;
+    /* background-color: #c1d6f1; */
+    background-color: #72acf75e;
+    border-radius: 200px;
     list-style: none;
     text-align: center;
     flex: 1;
@@ -140,7 +144,7 @@ p {
   }
 
   .contact-me {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 240, 240);
     color: black;
     align-items: center;
     display: inline-flex;

@@ -37,7 +37,7 @@
         }
 
         .nav-options li:hover {
-            background-color: #309225;
+            background-color: #49ac3e;
             display: inline-block;
             vertical-align: center;
             cursor: pointer;
@@ -64,6 +64,10 @@
             right: 0;
             top: 50%;
             transform: translate(-50%, -50%);
+        }
+
+        .language-bar > p {
+            font-weight: normal;
         }
 
         .country-icon {
@@ -140,6 +144,13 @@
 
         .hamburger-icon:hover {
             cursor: pointer;
+        }
+
+        #regulations-link a {
+            width: 100%;
+            height: 100%;
+            color: inherit;
+            padding: 1rem;
         }
 
         @media (max-width: 1200px) {

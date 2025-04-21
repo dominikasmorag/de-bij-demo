@@ -11,13 +11,10 @@
 }
 
 .content-background {
-    /* background-color: rgb(227, 249, 255); */
-    /* background-color: rgb(197, 245, 253) */
     background-color: rgba(197, 245, 253, 0.77)
 }
 
 .content-background-2 {
-    /* background-color: #3acb3f34; */
     background-color: #c8f4af;
 }
 
@@ -34,15 +31,12 @@
     color: rgb(0, 0, 0);
 } 
 
-
-
 .content-wrapper {
     padding-top: 1.3rem;
     padding-bottom: 2.5rem;
 }
 .service {
     padding: 1rem 2rem;
-    /* background-color: #c1d6f1; */
     background-color: #72acf75e;
     border-radius: 200px;
     list-style: none;
@@ -192,7 +186,6 @@ p {
     .content-background, .content-background-2 {
         min-width: 6%;
         max-width: 85vw;
-        /* border: 1px solid black; */
         padding: 0.01rem;
         margin-top: 1rem;
         padding-left: 1.5rem;

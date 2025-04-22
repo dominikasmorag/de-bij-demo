@@ -151,6 +151,7 @@
 .nav-option > a {
     color: inherit;
     display: block;
+    min-width: 100px;
     margin-top: inherit;
     margin-bottom: inherit;
 }

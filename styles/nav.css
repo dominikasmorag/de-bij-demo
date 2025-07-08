@@ -156,6 +156,49 @@
     margin-bottom: inherit;
 }
 
+#offer-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-offer {
+    position: absolute;
+    top: 100%; /* tuż pod ofertą */
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    flex-direction: column;
+    background-color: #F0F0F0;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 999;
+    min-width: 150px;
+    text-align: center;
+    padding: 0;
+}
+
+.sub-offer li {
+    color: black;
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.sub-offer li:hover {
+    background-color: #49ac3e;
+    color: white;
+}
+
+.offer-dropdown-icon {
+    width: 15px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
 @media (max-width: 1200px) {
     .hamburger-menu {
         display: flex;

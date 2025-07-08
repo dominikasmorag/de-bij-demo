@@ -7,7 +7,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    box-shadow: 1px 2px 3px rgba(0,0,0, 0.5);
+    /* box-shadow: 1px 2px 3px rgba(0,0,0, 0.5); */
 }
 
 .content-background {
@@ -21,7 +21,7 @@
 .content {
     max-width: 1400px;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
     padding: 1rem;
 }
 
@@ -29,7 +29,7 @@
  {
     margin-top: 1rem;
     color: rgb(0, 0, 0);
-} 
+}
 
 .content-wrapper {
     padding-top: 1.3rem;
@@ -38,7 +38,7 @@
 .service {
     padding: 1rem 2rem;
     background-color: #72acf75e;
-    border-radius: 200px;
+    border-radius: 10px;
     list-style: none;
     text-align: center;
     flex: 1;
@@ -48,9 +48,32 @@
     transition: transform .2s, box-shadow .3s;
 }
 
+.renovations {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    flex-direction: column; /* ustawia w kolumnie */
+    gap: 10px; /* odstęp między elementami, opcjonalnie */
+}
+
+.renovations > li {
+    width: 80%; /* zajmuje całą szerokość kontenera */
+    text-align: left;
+}
+
+.renovations > li > .list-element {
+    text-align: left;
+}
+
+.renovations .service {
+    justify-content: flex-start; /* wyrównuje zawartość do lewej w flex */
+}
+
 .service:hover {
     box-shadow: 1px 2px 3px rgb(0, 0, 0, 0.5);
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 .services-list {
@@ -64,7 +87,7 @@
 }
 
 .list-element  {
-    
+
     font-weight: 500;
     margin-top: auto;
     margin-bottom: auto;
@@ -79,7 +102,7 @@ p {
 }
 
 .location-icon {
-    max-width: 250px;
+    max-width: 180px;
     margin: auto;
     padding: 0;
 }
@@ -102,10 +125,10 @@ p {
     flex: 1;
 }
 
-.grid-box-location {
+.grid-box-location, .brid-box-contact {
     display: grid;
     grid-template-columns: 0.4fr 1fr;
-    
+
 }
 
 .grid-box-pricing {
@@ -113,7 +136,7 @@ p {
     grid-template-columns: 1fr 0.4fr;
 }
 
-#nav-to-contact:hover { 
+#nav-to-contact:hover {
     cursor: pointer;
     color: grey;
 }
@@ -130,7 +153,7 @@ p {
     margin-bottom: 1rem;
     list-style-position: outside;
   }
-  
+
   .reg-list li {
     margin-bottom: 0.4rem;
     line-height: 1.8rem;
@@ -177,7 +200,7 @@ p {
 
 .contact-links {
     display: grid;
-    
+
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
@@ -201,7 +224,7 @@ p {
         padding-top: 2rem;
         padding-bottom: 1rem;
     }
-    
+
     .location-icon, .pricing-icon, .list-icon {
         width: 30%;
     }
@@ -209,7 +232,7 @@ p {
     .icon-holder {
         grid-row-start: 1;
     }
-    
+
     .services-list {
         gap: 10px;
     }
@@ -219,7 +242,7 @@ p {
     }
 
     .contact-me:hover {
-    
+
         transform: scale(1.05);
 }
 

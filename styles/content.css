@@ -45,6 +45,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    min-width: 120px;
     transition: transform .2s, box-shadow .3s;
 }
 
@@ -202,6 +203,32 @@ p {
     display: grid;
 
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  font-size: 0.95rem;
+}
+
+.pricing-table th, .pricing-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.pricing-table th {
+  background-color: #c8f4af;
+  color: black;
+}
+
+.pricing-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pricing-table tr:hover {
+  background-color: #f1f1f1;
 }
 
 

@@ -1,75 +1,82 @@
 // let selectedSection;
-// const offset = 100;
+// let offset = window.innerWidth < 768 ? 60 : 100;
 
 // document.addEventListener("DOMContentLoaded", function() {
-//     initializeScroll('home-link', 'home');
-//     initializeScroll('offer-link', 'offer');
-//     initializeScroll('location-link', 'location');
-//     initializeScroll('pricing-link', 'pricing');
-//     initializeScroll('gallery-link', 'gallery');
-//     initializeScroll('contact-link', 'contact');
+//   const links = [
+//     { id: 'home-link', section: 'home' },
+//     { id: 'offer-link', section: 'offer' },
+//     { id: 'location-link', section: 'location' },
+//     { id: 'contact-link', section: 'contact' },
+//     { id: 'home-footer-link', section: 'home' },
+//     { id: 'offer-footer-link', section: 'offer' },
+//     { id: 'location-footer-link', section: 'location' },
+//     { id: 'contact-footer-link', section: 'contact' },
+//     { id: 'nav-to-contact', section: 'contact' },
+//     { id: 'pricing-link', section: 'pricing' },
+//     { id: 'gallery-link', section: 'gallery' }
+//   ];
+//   //     // initializeScroll('pricing-link', 'pricing');
+// //     // initializeScroll('gallery-link', 'gallery');
 
-//     initializeScroll('home-footer-link', 'home');
-//     initializeScroll('offer-footer-link', 'offer');
-//     initializeScroll('location-footer-link', 'location');
-//     initializeScroll('pricing-footer-link', 'pricing');
-//     initializeScroll('gallery-footer-link', 'gallery');
-//     initializeScroll('contact-footer-link', 'contact');
+//   links.forEach(link => initializeScroll(link.id, link.section));
+// });
 
-//     initializeScroll('nav-to-contact', 'contact');
-// }
-// )
+// function initializeScroll(linkId, sectionId) {
+//   const link = document.getElementById(linkId);
+//   const section = document.getElementById(sectionId);
 
-// function initializeScroll(link, section) {
-//     document.getElementById(link).addEventListener('click', function(event) {
+//   if (link && section) {
+//     link.addEventListener('click', function(event) {
+//       event.preventDefault();
 
-//         selectedSection = document.getElementById(section);
+//       const targetPosition = section.offsetTop - offset;
+//       const maxScroll = document.body.scrollHeight - window.innerHeight;
 
-//         window.scrollTo({
-//             behavior: 'smooth',
-//             top: selectedSection.offsetTop - offset
-//         });
+//       window.scrollTo({
+//         behavior: 'smooth',
+//         top: targetPosition > maxScroll ? maxScroll : targetPosition
+//       });
 //     });
+//   }
 // }
-
 
 let selectedSection;
-let offset;
-
-if (window.innerWidth < 768) {
-    offset = 60;
-} else {
-    offset = 100;
-}
+// Zwiększony offset, np. do 150 zamiast 100, aby sekcja pokazywała się wyżej
+let offset = window.innerWidth < 768 ? 80 : 150;
 
 document.addEventListener("DOMContentLoaded", function() {
-    initializeScroll('home-link', 'home');
-    initializeScroll('offer-link', 'offer');
-    initializeScroll('location-link', 'location');
-    // initializeScroll('pricing-link', 'pricing');
-    // initializeScroll('gallery-link', 'gallery');
-    initializeScroll('contact-link', 'contact');
+  const links = [
+    { id: 'home-link', section: 'home' },
+    { id: 'offer-link', section: 'offer' },
+    { id: 'location-link', section: 'location' },
+    { id: 'contact-link', section: 'contact' },
+    { id: 'home-footer-link', section: 'home' },
+    { id: 'offer-footer-link', section: 'offer' },
+    { id: 'location-footer-link', section: 'location' },
+    { id: 'contact-footer-link', section: 'contact' },
+    { id: 'nav-to-contact', section: 'contact' },
+    { id: 'pricing-link', section: 'pricing' },
+    { id: 'gallery-link', section: 'gallery' }
+  ];
 
-    initializeScroll('home-footer-link', 'home');
-    initializeScroll('offer-footer-link', 'offer');
-    initializeScroll('location-footer-link', 'location');
-    initializeScroll('pricing-footer-link', 'pricing');
-    initializeScroll('gallery-footer-link', 'gallery');
-    initializeScroll('contact-footer-link', 'contact');
-
-    initializeScroll('nav-to-contact', 'contact');
+  links.forEach(link => initializeScroll(link.id, link.section));
 });
 
-function initializeScroll(link, section) {
-    document.getElementById(link).addEventListener('click', function(event) {
-        selectedSection = document.getElementById(section);
+function initializeScroll(linkId, sectionId) {
+  const link = document.getElementById(linkId);
+  const section = document.getElementById(sectionId);
 
-        const targetPosition = selectedSection.offsetTop - offset;
-        const maxScroll = document.body.scrollHeight - window.innerHeight;
+  if (link && section) {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
 
-        window.scrollTo({
-            behavior: 'smooth',
-            top: targetPosition > maxScroll ? maxScroll : targetPosition
-        });
+      const targetPosition = section.offsetTop - offset;
+      const maxScroll = document.body.scrollHeight - window.innerHeight;
+
+      window.scrollTo({
+        behavior: 'smooth',
+        top: targetPosition > maxScroll ? maxScroll : targetPosition
+      });
     });
+  }
 }

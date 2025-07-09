@@ -7,7 +7,7 @@ body {
 
 .background-break {
     background-image: url("../images/background.png");
-    min-height: 60vh;
+    min-height: 40vh;
     background-position: center;
     background-attachment: fixed;
     margin: auto;

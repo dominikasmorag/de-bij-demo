@@ -42,6 +42,26 @@
     z-index: 1;
 }
 
+.cta-buttons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.cta-button {
+    background-color: rgb(249, 255, 236);
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    box-shadow: 1px 2px 3px rgba(0,0,0, 0.5);
+}
+
+.cta-button:hover {
+    transform: scale(1.03);
+    transition: transform .2s;
+}
+
 @media (max-width: 768px) {
     .image-inside {
         max-width: 90vw;
@@ -49,6 +69,11 @@
 
     .marketing-text {
         padding: 1rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gaP: 1rem;
     }
 
 }

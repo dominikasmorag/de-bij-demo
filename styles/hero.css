@@ -16,10 +16,7 @@
 }
 
 .image-inside {
-    /* min-width: 50%;
-    50vw;
-    max-width: 100%;
-    70vw; */
+
     min-height: 30px;
     max-height: 100%;
     margin: 1rem auto 1rem auto;

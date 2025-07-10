@@ -202,6 +202,13 @@
     vertical-align: middle;
 }
 
+@media (min-width: 1201px),(max-width: 1700px) {
+    .nav-options li {
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+    }
+}
+
 @media (max-width: 1200px) {
     .hamburger-menu {
         display: flex;

@@ -10,7 +10,7 @@
     display: flex;
 }
 
-.before, .after {
+.before, .after, .in-progress{
     flex: 1;
     display: grid;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
@@ -33,6 +33,15 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.in-progress p {
+    background-color:rgb(244, 150, 20);
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
 
 .cleaning-photo {
     width: 100%;

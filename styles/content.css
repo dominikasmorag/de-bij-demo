@@ -231,6 +231,10 @@ p {
   background-color: #f1f1f1;
 }
 
+.regulations-ref:hover {
+    color: blue;
+}
+
 
 @media (max-width: 768px) {
     .content-background, .content-background-2 {

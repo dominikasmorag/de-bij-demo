@@ -45,6 +45,7 @@
     margin-right: auto;
     justify-content: space-between;
     max-width: 600px;
+    gap: 10px;
 }
 
 .cta-button {

@@ -43,6 +43,11 @@ Author: Garuda Technology
 Source: https://www.svgrepo.com/svg/452133/whatsapp
 License: MIT License – https://opensource.org/licenses/MIT
 
+Icon: Flag For Flag Netherlands
+Collection: Twemoji Emojis
+Author: Twitter
+Source: https://www.svgrepo.com/svg/405561/flag-for-flag-netherlands
+License: MIT License – https://opensource.org/licenses/MIT
 _____________________________________________________________
 
 Copyrighted Materials

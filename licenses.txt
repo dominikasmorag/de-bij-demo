@@ -1,0 +1,56 @@
+Icon: Contact Details 5
+Collection: Industrial Sharp UI Icons
+Author: Siemens
+Source: https://www.svgrepo.com/svg/486616/contact-details
+License: MIT License – https://opensource.org/licenses/MIT
+
+Icon "Down Arrow 5" © Ankush Syal
+License: Creative Commons Attribution (CC BY)
+Source: https://www.svgrepo.com/svg/520696/down-arrow-5
+
+Icon: Euro Circle 8
+Author: scarlab
+Source: https://www.svgrepo.com/svg/507683/euro-circle
+License: MIT License
+
+Icon: Gmail 15
+Collection: Tiny App Icons
+Author: edent
+Source: https://www.svgrepo.com/svg/349378/gmail
+License: MIT License – https://opensource.org/licenses/MIT
+
+Icon: Menu Hamburger
+Collection: Basicons Interface Line Icons
+Author: basicons
+Source: https://www.svgrepo.com/svg/380050/menu-hambuger
+License: MIT License – https://opensource.org/licenses/MIT
+
+Icon: Location 182
+Collection: Bigmug Interface Icons
+Author: Catalin Fertu
+Source: https://www.svgrepo.com/svg/522167/location
+License: Creative Commons Attribution (CC BY) – https://creativecommons.org/licenses/by/4.0/
+
+Icon: Phone Calling 5
+Collection: Solar Bold Icons
+Author: Solar Icons
+Source: https://www.svgrepo.com/svg/526085/phone-calling
+License: Creative Commons Attribution (CC BY) – https://creativecommons.org/licenses/by/4.0/
+
+Icon: Whatsapp 65
+Collection: Colored Interface And Logo Icons
+Author: Garuda Technology
+Source: https://www.svgrepo.com/svg/452133/whatsapp
+License: MIT License – https://opensource.org/licenses/MIT
+
+_____________________________________________________________
+
+Copyrighted Materials
+
+The De Bij company logo, all before-and-after project photos (cleaning and renovation), and any other images or graphics not listed above are the exclusive property of De Bij.
+
+All rights reserved.
+It is strictly prohibited to copy, share, publish, or use these materials in any form without prior written permission from the owner.
+
+For permission requests or copyright inquiries, please contact:
+schoonmaakdebij@gmail.com
